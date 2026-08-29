@@ -26,7 +26,7 @@
       current download/upload speed.
     </p>
   </description>
-  <icon type="stock">network-transmit-receive-symbolic</icon>
+  <icon type="stock">io.github.balayogig.cosmic-applet-net-speed-symbolic.svg</icon>
   <launchable type="desktop-id">io.github.balayogig.cosmic-applet-net-speed.desktop</launchable>
   <screenshots>
     <screenshot type="default">

@@ -28,7 +28,8 @@
         "cargo --offline build --release --verbose",
         "install -Dm0755 ./target/release/cosmic-applet-net-speed /app/bin/cosmic-applet-net-speed",
         "install -Dm0644 ./data/io.github.balayogig.cosmic-applet-net-speed.desktop -t /app/share/applications/",
-        "install -Dm0644 ./data/io.github.balayogig.cosmic-applet-net-speed.metainfo.xml -t /app/share/metainfo/"
+        "install -Dm0644 ./data/io.github.balayogig.cosmic-applet-net-speed.metainfo.xml -t /app/share/metainfo/",
+        "install -Dm0644 ./data/io.github.balayogig.cosmic-applet-net-speed-symbolic.svg -t /app/share/icons/hicolor/scalable/apps/"
       ],
       "sources": [
         {

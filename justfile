@@ -18,13 +18,16 @@ share-dst := base-dir / 'share'
 bin-dst := base-dir / 'bin' / NAME
 desktop-dst := share-dst / 'applications' / APPID + '.desktop'
 metainfo-dst := share-dst / 'metainfo' / APPID + '.metainfo.xml'
+icon-dst := share-dst / 'icons/hicolor/scalable/apps' / APPID + '-symbolic.svg'
 
 install:
 	install -Dm0755 {{ bin-src }} {{ bin-dst }}
 	install -Dm0644 data/{{ APPID }}.desktop {{ desktop-dst }}
 	install -Dm0644 data/{{ APPID }}.metainfo.xml {{ metainfo-dst }}
+	install -Dm0644 data/{{ APPID }}-symbolic.svg {{ icon-dst }}
 
 uninstall:
 	rm {{ bin-dst }}
 	rm {{ desktop-dst }}
 	rm {{ metainfo-dst }}
+	rm {{ icon-dst }}

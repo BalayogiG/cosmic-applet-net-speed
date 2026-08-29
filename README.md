@@ -32,6 +32,8 @@ sudo install -Dm644 data/io.github.balayogig.cosmic-applet-net-speed.desktop \
     /usr/share/applications/io.github.balayogig.cosmic-applet-net-speed.desktop
 sudo install -Dm644 data/io.github.balayogig.cosmic-applet-net-speed.metainfo.xml \
     /usr/share/metainfo/io.github.balayogig.cosmic-applet-net-speed.metainfo.xml
+sudo install -Dm644 data/io.github.balayogig.cosmic-applet-net-speed-symbolic.svg \
+    /usr/share/icons/hicolor/scalable/apps/io.github.balayogig.cosmic-applet-net-speed-symbolic.svg
 ```
 
 Then add "Network Speed" from the COSMIC panel applet list.
