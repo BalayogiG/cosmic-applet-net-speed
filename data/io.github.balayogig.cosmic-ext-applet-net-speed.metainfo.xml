@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.balayogig.cosmic-applet-net-speed</id>
+  <id>io.github.balayogig.cosmic-ext-applet-net-speed</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-only</project_license>
   <project_group>COSMIC</project_group>
@@ -9,9 +9,9 @@
   </developer>
   <update_contact>balayogistark@gmail.com</update_contact>
   <name>Network Speed</name>
-  <url type="homepage">https://github.com/BalayogiG/cosmic-applet-net-speed</url>
-  <url type="bugtracker">https://github.com/BalayogiG/cosmic-applet-net-speed/issues</url>
-  <url type="contribute">https://github.com/BalayogiG/cosmic-applet-net-speed</url>
+  <url type="homepage">https://github.com/BalayogiG/cosmic-ext-applet-net-speed</url>
+  <url type="bugtracker">https://github.com/BalayogiG/cosmic-ext-applet-net-speed/issues</url>
+  <url type="contribute">https://github.com/BalayogiG/cosmic-ext-applet-net-speed</url>
   <content_rating type="oars-1.1" />
   <summary>Live network download/upload speed in the COSMIC panel</summary>
   <description>
@@ -26,15 +26,15 @@
       current download/upload speed.
     </p>
   </description>
-  <icon type="stock">io.github.balayogig.cosmic-applet-net-speed-symbolic.svg</icon>
-  <launchable type="desktop-id">io.github.balayogig.cosmic-applet-net-speed.desktop</launchable>
+  <icon type="stock">io.github.balayogig.cosmic-ext-applet-net-speed-symbolic.svg</icon>
+  <launchable type="desktop-id">io.github.balayogig.cosmic-ext-applet-net-speed.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image type="source" width="1920" height="1080">https://raw.githubusercontent.com/BalayogiG/cosmic-applet-net-speed/main/data/applet_screenshot_1.png</image>
+      <image type="source" width="1920" height="1080">https://raw.githubusercontent.com/BalayogiG/cosmic-ext-applet-net-speed/main/data/applet_screenshot_1.png</image>
       <caption>Live download/upload speed shown in the COSMIC panel</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1080">https://raw.githubusercontent.com/BalayogiG/cosmic-applet-net-speed/main/data/applet_screenshot_2.png</image>
+      <image type="source" width="1920" height="1080">https://raw.githubusercontent.com/BalayogiG/cosmic-ext-applet-net-speed/main/data/applet_screenshot_2.png</image>
       <caption>Popup showing the active interface and current speeds</caption>
     </screenshot>
   </screenshots>
@@ -48,7 +48,7 @@
   <provides>
     <id>com.system76.CosmicApplet</id>
     <binaries>
-      <binary>cosmic-applet-net-speed</binary>
+      <binary>cosmic-ext-applet-net-speed</binary>
     </binaries>
   </provides>
   <categories>

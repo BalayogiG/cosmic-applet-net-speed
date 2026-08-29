@@ -3,8 +3,8 @@ default: build
 build:
 	cargo build --release
 
-export NAME := 'cosmic-applet-net-speed'
-export APPID := 'io.github.balayogig.cosmic-applet-net-speed'
+export NAME := 'cosmic-ext-applet-net-speed'
+export APPID := 'io.github.balayogig.cosmic-ext-applet-net-speed'
 
 cargo-target-dir := env('CARGO_TARGET_DIR', 'target')
 bin-src := cargo-target-dir / 'release' / NAME

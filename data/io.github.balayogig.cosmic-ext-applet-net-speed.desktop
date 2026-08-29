@@ -5,8 +5,8 @@ Keywords=Network;Speed;Bandwidth;
 Categories=Network;System;
 
 Type=Application
-Icon=io.github.balayogig.cosmic-applet-net-speed-symbolic
-Exec=cosmic-applet-net-speed
+Icon=io.github.balayogig.cosmic-ext-applet-net-speed-symbolic
+Exec=cosmic-ext-applet-net-speed
 Terminal=false
 StartupNotify=true
 NoDisplay=true

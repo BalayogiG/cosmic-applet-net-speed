@@ -1,10 +1,10 @@
 {
-  "id": "io.github.balayogig.cosmic-applet-net-speed",
+  "id": "io.github.balayogig.cosmic-ext-applet-net-speed",
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
-  "command": "cosmic-applet-net-speed",
+  "command": "cosmic-ext-applet-net-speed",
   "finish-args": [
     "--filesystem=/sys/class/net:ro",
     "--talk-name=com.system76.CosmicSettingsDaemon.*",
@@ -16,20 +16,20 @@
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin",
     "env": {
-      "CARGO_HOME": "/run/build/cosmic-applet-net-speed/cargo"
+      "CARGO_HOME": "/run/build/cosmic-ext-applet-net-speed/cargo"
     }
   },
   "modules": [
     {
-      "name": "cosmic-applet-net-speed",
+      "name": "cosmic-ext-applet-net-speed",
       "buildsystem": "simple",
       "build-commands": [
         "cargo --offline fetch --manifest-path Cargo.toml --verbose",
         "cargo --offline build --release --verbose",
-        "install -Dm0755 ./target/release/cosmic-applet-net-speed /app/bin/cosmic-applet-net-speed",
-        "install -Dm0644 ./data/io.github.balayogig.cosmic-applet-net-speed.desktop -t /app/share/applications/",
-        "install -Dm0644 ./data/io.github.balayogig.cosmic-applet-net-speed.metainfo.xml -t /app/share/metainfo/",
-        "install -Dm0644 ./data/io.github.balayogig.cosmic-applet-net-speed-symbolic.svg -t /app/share/icons/hicolor/scalable/apps/"
+        "install -Dm0755 ./target/release/cosmic-ext-applet-net-speed /app/bin/cosmic-ext-applet-net-speed",
+        "install -Dm0644 ./data/io.github.balayogig.cosmic-ext-applet-net-speed.desktop -t /app/share/applications/",
+        "install -Dm0644 ./data/io.github.balayogig.cosmic-ext-applet-net-speed.metainfo.xml -t /app/share/metainfo/",
+        "install -Dm0644 ./data/io.github.balayogig.cosmic-ext-applet-net-speed-symbolic.svg -t /app/share/icons/hicolor/scalable/apps/"
       ],
       "sources": [
         {

@@ -887,17 +887,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "cosmic-applet-net-speed"
-version = "0.1.0"
-dependencies = [
- "env_logger",
- "futures",
- "libcosmic",
- "log",
- "tokio",
-]
-
-[[package]]
 name = "cosmic-client-toolkit"
 version = "0.2.0"
 source = "git+https://github.com/pop-os/cosmic-protocols?rev=32283d7#32283d76a8d0342da74c4cc022a533c52dcf378f"
@@ -938,6 +927,17 @@ source = "git+https://github.com/pop-os/libcosmic#c003a58fff660f5c55ebfb54a59087
 dependencies = [
  "quote",
  "syn 2.0.119",
+]
+
+[[package]]
+name = "cosmic-ext-applet-net-speed"
+version = "0.1.0"
+dependencies = [
+ "env_logger",
+ "futures",
+ "libcosmic",
+ "log",
+ "tokio",
 ]
 
 [[package]]
