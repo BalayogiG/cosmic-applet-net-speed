@@ -6,6 +6,10 @@ It reads interface statistics directly from `/sys/class/net`, picking the active
 non-loopback/non-virtual interface with the most traffic, and displays the
 current throughput in the panel.
 
+| Panel | Popup |
+| --- | --- |
+| ![Panel showing live download/upload speed](data/applet_screenshot_1.png) | ![Popup showing interface and speeds](data/applet_screenshot_2.png) |
+
 ## Building
 
 Requires a recent Rust toolchain.
