@@ -13,7 +13,7 @@ use futures::SinkExt;
 
 use crate::net;
 
-const ID: &str = "com.github.Balayogi.CosmicNetworkSpeed";
+const ID: &str = "io.github.balayogig.cosmic-applet-net-speed";
 
 static AUTOSIZE_ID: LazyLock<cosmic::widget::Id> =
     LazyLock::new(|| cosmic::widget::Id::new("cosmic-applet-net-speed-autosize"));

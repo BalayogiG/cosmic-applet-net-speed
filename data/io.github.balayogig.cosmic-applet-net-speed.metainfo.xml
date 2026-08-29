@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.balayogig.cosmic-applet-net-speed</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <project_group>COSMIC</project_group>
+  <developer id="io.github.balayogig">
+    <name>BalayogiG</name>
+  </developer>
+  <update_contact>balayogistark@gmail.com</update_contact>
+  <name>Network Speed</name>
+  <url type="homepage">https://github.com/BalayogiG/cosmic-applet-net-speed</url>
+  <url type="bugtracker">https://github.com/BalayogiG/cosmic-applet-net-speed/issues</url>
+  <url type="contribute">https://github.com/BalayogiG/cosmic-applet-net-speed</url>
+  <content_rating type="oars-1.1" />
+  <summary>Live network download/upload speed in the COSMIC panel</summary>
+  <description>
+    <p>
+      Network Speed shows the current download and upload throughput of your
+      active network interface directly in the COSMIC panel. It automatically
+      picks the busiest non-loopback, non-virtual interface and updates once
+      per second.
+    </p>
+    <p>
+      Click the panel entry to open a popup with the interface name and
+      current download/upload speed.
+    </p>
+  </description>
+  <icon type="stock">network-transmit-receive-symbolic</icon>
+  <launchable type="desktop-id">io.github.balayogig.cosmic-applet-net-speed.desktop</launchable>
+  <releases>
+    <release version="0.1.0" date="2026-08-29">
+      <description>
+        <p>Initial release with automatic interface detection and live speed display.</p>
+      </description>
+    </release>
+  </releases>
+  <provides>
+    <id>com.system76.CosmicApplet</id>
+    <binaries>
+      <binary>cosmic-applet-net-speed</binary>
+    </binaries>
+  </provides>
+  <categories>
+    <category>Network</category>
+    <category>System</category>
+  </categories>
+</component>

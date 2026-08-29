@@ -3,6 +3,8 @@ name = "cosmic-applet-net-speed"
 version = "0.1.0"
 edition = "2021"
 license = "GPL-3.0-only"
+homepage = "https://github.com/BalayogiG/cosmic-applet-net-speed"
+repository = "https://github.com/BalayogiG/cosmic-applet-net-speed.git"
 
 [dependencies]
 env_logger = "0.10.2"
