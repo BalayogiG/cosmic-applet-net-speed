@@ -18,8 +18,8 @@ cargo build --release
 
 ```sh
 sudo install -Dm755 target/release/cosmic-applet-net-speed /usr/bin/cosmic-applet-net-speed
-sudo install -Dm644 data/com.github.cosmic-applet-network.desktop \
-    /usr/share/applications/com.github.cosmic-applet-network.desktop
+sudo install -Dm644 data/com.github.Balayogi.CosmicNetworkSpeed.desktop \
+    /usr/share/applications/com.github.Balayogi.CosmicNetworkSpeed.desktop
 ```
 
 Then add "Network Speed" from the COSMIC panel applet list.
