@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Network Speed
+Comment=Show live download/upload speed in the panel
+Type=Application
+Exec=cosmic-applet-net-speed
+Terminal=false
+Categories=COSMIC;
+Keywords=COSMIC;Applet;Network;Speed;Bandwidth;
+Icon=network-transmit-receive-symbolic
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-OverflowPriority=10

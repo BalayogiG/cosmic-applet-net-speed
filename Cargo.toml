@@ -1,0 +1,23 @@
+[package]
+name = "cosmic-applet-net-speed"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+
+[dependencies]
+env_logger = "0.10.2"
+log = "0.4.29"
+futures = "0.3"
+tokio = { version = "1.49.0", features = ["time"] }
+
+[dependencies.libcosmic]
+git = "https://github.com/pop-os/libcosmic"
+default-features = false
+features = [
+    "applet",
+    "applet-token",
+    "tokio",
+    "wayland",
+    "winit",
+    "multi-window",
+]
