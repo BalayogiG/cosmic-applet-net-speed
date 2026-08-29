@@ -28,6 +28,16 @@
   </description>
   <icon type="stock">network-transmit-receive-symbolic</icon>
   <launchable type="desktop-id">io.github.balayogig.cosmic-applet-net-speed.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source" width="1920" height="1080">https://raw.githubusercontent.com/BalayogiG/cosmic-applet-net-speed/main/data/applet_screenshot_1.png</image>
+      <caption>Live download/upload speed shown in the COSMIC panel</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source" width="1920" height="1080">https://raw.githubusercontent.com/BalayogiG/cosmic-applet-net-speed/main/data/applet_screenshot_2.png</image>
+      <caption>Popup showing the active interface and current speeds</caption>
+    </screenshot>
+  </screenshots>
   <releases>
     <release version="0.1.0" date="2026-08-29">
       <description>
